@@ -1,0 +1,182 @@
+body{
+    line-height: 2;
+   /* Set line spacing */
+}
+
+
+header, nav{
+    margin: 10px;
+    padding: 10px 5px 20px 15px;
+    /* Set padding and margin */
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    font-size: 20px;
+    /* Set display, margin, padding, font-size, background-color */
+
+}
+
+nav a{
+    text-decoration: none;
+    /* Set text decoration*/
+}
+
+a:visited{
+    color:black;
+    /* Set color */
+
+}
+
+nav a.current{
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 15px;
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+   /*Set font and font size*/
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    margin: 15px;
+    /*Set margin */
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    row-gap: 10px;
+    column-gap: 10px;
+
+    /*Set width, margin, border properties, background color, and grid properties */
+}
+
+.grid div{
+    border: 3px solid black;
+    border-radius: 20px;
+    /* Set border properties, padding, and background color */
+
+}
+
+.grid img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    /* Set width, margin, and display */
+}
+
+
+.grid div:nth-child(3n+1)  {
+    box-shadow: 3px 3px black
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    box-shadow: -3px 3px black;
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+    box-shadow: 3px 3px black, -3px 3px black;
+     /* Set box shadow */
+}
+    
+
+p + p {
+    text-indent: 20px;
+     /* Set indentation */
+  }
+  
+p{
+    margin: 20px;
+     /* Set margin */
+}
+
+
+.grid ul li{
+    list-style-image: url('/images/sketchbook.png');
+    line-height: 1; 
+    margin: 0 0 20px 45px;   /* Set margin, line-spacing, list styling  */
+}
+@media (min-width: 769px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        margin: 0 auto;
+        row-gap: 10px;
+        column-gap: 10px;
+    
+        /*Set width, margin, border properties, background color, and grid properties */
+    }
+    
+    .grid div{
+        border: 3px solid black;
+        border-radius: 20px;
+        /* Set border properties, padding, and background color */
+    
+    }
+    
+    .grid img{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        /* Set width, margin, and display */
+    }
+    
+    
+    .grid div:nth-child(3n+1)  {
+        box-shadow: 3px 3px black
+        /* Set box shadow */
+        }
+    
+    .grid div:nth-child(3n)  {
+        box-shadow: -3px 3px black;
+        /* Set box shadow */ 
+    }
+    
+    .grid div:nth-child(3n+2)  {
+        box-shadow: 3px 3px black, -3px 3px black;
+         /* Set box shadow */
+    }
+        
+    
+    p + p {
+        text-indent: 20px;
+         /* Set indentation */
+    }
+    p{
+        margin: 20px;
+         /* Set margin */
+    }
+    .grid ul li{
+        list-style-image: url('/images/sketchbook.png');
+        line-height: 1;
+        margin: 0 0 20px 45px;   /* Set margin, line-spacing, list styling  */
+    }
